@@ -1,0 +1,171 @@
+{
+ "analysis_code": "scripts/final_figures.py (self-contained)",
+ "sample_set": "inclusive-v6",
+ "inputs": {
+  "data/genie_inclusive_v4_surrogate_selection.npz": {
+   "bytes": 102642379,
+   "modified": "2026-10-22T19:36:35",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/genie_inclusive_v4_surrogate_selection.npz"
+  },
+  "data/genie_inclusive_v4_surrogate_truth.npz": {
+   "bytes": 180531144,
+   "modified": "2026-10-30T14:18:44",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/genie_inclusive_v4_surrogate_truth.npz"
+  },
+  "data/genie_inclusive_v4_surrogate_universes.npz": {
+   "bytes": 198712467,
+   "modified": "2026-10-30T14:18:20",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/genie_inclusive_v4_surrogate_universes.npz"
+  },
+  "data/gibuu_geo_surrogate_selection.npz": {
+   "bytes": 109924464,
+   "modified": "2026-11-03T23:34:47",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/gibuu_geo_surrogate_selection.npz"
+  },
+  "data/gibuu_geo_surrogate_truth.npz": {
+   "bytes": 235951151,
+   "modified": "2026-11-03T23:35:37",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/gibuu_geo_surrogate_truth.npz"
+  },
+  "data/gibuu_geo_surrogate_universes.npz": {
+   "bytes": 255427601,
+   "modified": "2026-11-03T23:35:11",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/gibuu_geo_surrogate_universes.npz"
+  },
+  "data/minerva_data_selection.npz": {
+   "bytes": 89453654,
+   "modified": "2026-10-08T21:02:14",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/minerva_data_selection.npz"
+  },
+  "data/minerva_genie_cc_fullvol_truth.npz": {
+   "bytes": 360589936,
+   "modified": "2026-10-08T21:03:21",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/minerva_genie_cc_fullvol_truth.npz"
+  },
+  "data/minerva_genie_cc_fullvol_truth_enu.npz": {
+   "bytes": 78913213,
+   "modified": "2026-10-14T17:23:25",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/minerva_genie_cc_fullvol_truth_enu.npz"
+  },
+  "data/minerva_genie_other_fullvol_truth.npz": {
+   "bytes": 96542414,
+   "modified": "2026-10-12T22:18:46",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/minerva_genie_other_fullvol_truth.npz"
+  },
+  "data/minerva_genie_other_fullvol_truth_enu.npz": {
+   "bytes": 29189761,
+   "modified": "2026-10-14T17:23:26",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/minerva_genie_other_fullvol_truth_enu.npz"
+  },
+  "data/minerva_genie_reco_selection.npz": {
+   "bytes": 455854403,
+   "modified": "2026-10-06T15:47:06",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/minerva_genie_reco_selection.npz"
+  },
+  "data/minerva_me1A_numu_flux_mat.json": {
+   "bytes": 13477,
+   "modified": "2026-10-14T17:15:16",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/minerva_me1A_numu_flux_mat.json"
+  },
+  "data/nuwro_geo_surrogate_selection.npz": {
+   "bytes": 96400829,
+   "modified": "2026-11-03T23:34:46",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/nuwro_geo_surrogate_selection.npz"
+  },
+  "data/nuwro_geo_surrogate_truth.npz": {
+   "bytes": 202631499,
+   "modified": "2026-11-03T23:35:30",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/nuwro_geo_surrogate_truth.npz"
+  },
+  "data/nuwro_geo_surrogate_universes.npz": {
+   "bytes": 226823694,
+   "modified": "2026-11-03T23:35:07",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/nuwro_geo_surrogate_universes.npz"
+  },
+  "data/nuwro_inclusive_v5_surrogate_selection.npz": {
+   "bytes": 89158386,
+   "modified": "2026-10-23T15:30:44",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/nuwro_inclusive_v5_surrogate_selection.npz"
+  },
+  "data/nuwro_me_fhc_targets_pbfe_2026-10/nuwro_run.json": {
+   "bytes": 16720,
+   "modified": "2026-10-07T16:14:59",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/nuwro_me_fhc_targets_pbfe_2026-10/nuwro_run.json"
+  },
+  "data/nuwro_me_fhc_targets_pbfe_nc_2026-10/nuwro_run.json": {
+   "bytes": 5851,
+   "modified": "2026-10-12T15:04:59",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/nuwro_me_fhc_targets_pbfe_nc_2026-10/nuwro_run.json"
+  },
+  "data/nuwro_me_fhc_targets_pbfe_nue_cc_2026-10/nuwro_run.json": {
+   "bytes": 1668,
+   "modified": "2026-10-12T16:59:43",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/nuwro_me_fhc_targets_pbfe_nue_cc_2026-10/nuwro_run.json"
+  },
+  "data/nuwro_me_fhc_targets_pbfe_nue_nc_2026-10/nuwro_run.json": {
+   "bytes": 1591,
+   "modified": "2026-10-12T16:59:48",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/nuwro_me_fhc_targets_pbfe_nue_nc_2026-10/nuwro_run.json"
+  },
+  "data/nuwro_me_fhc_targets_pbfe_nuebar_cc_2026-10/nuwro_run.json": {
+   "bytes": 1695,
+   "modified": "2026-10-12T16:59:32",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/nuwro_me_fhc_targets_pbfe_nuebar_cc_2026-10/nuwro_run.json"
+  },
+  "data/nuwro_me_fhc_targets_pbfe_nuebar_nc_2026-10/nuwro_run.json": {
+   "bytes": 1570,
+   "modified": "2026-10-12T16:59:36",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/nuwro_me_fhc_targets_pbfe_nuebar_nc_2026-10/nuwro_run.json"
+  },
+  "data/nuwro_me_fhc_targets_pbfe_numubar_cc_2026-10/nuwro_run.json": {
+   "bytes": 1756,
+   "modified": "2026-10-12T16:59:56",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/nuwro_me_fhc_targets_pbfe_numubar_cc_2026-10/nuwro_run.json"
+  },
+  "data/nuwro_me_fhc_targets_pbfe_numubar_nc_2026-10/nuwro_run.json": {
+   "bytes": 1609,
+   "modified": "2026-10-12T17:00:01",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/nuwro_me_fhc_targets_pbfe_numubar_nc_2026-10/nuwro_run.json"
+  },
+  "data/nuwro_me_fhc_tracker_2026-10/nuwro_run.json": {
+   "bytes": 15515,
+   "modified": "2026-10-05T19:18:40",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/nuwro_me_fhc_tracker_2026-10/nuwro_run.json"
+  },
+  "data/nuwro_me_fhc_tracker_nc_2026-10/nuwro_run.json": {
+   "bytes": 7961,
+   "modified": "2026-10-12T15:03:43",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/nuwro_me_fhc_tracker_nc_2026-10/nuwro_run.json"
+  },
+  "data/nuwro_me_fhc_tracker_nue_cc_2026-10/nuwro_run.json": {
+   "bytes": 4712,
+   "modified": "2026-10-12T17:00:17",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/nuwro_me_fhc_tracker_nue_cc_2026-10/nuwro_run.json"
+  },
+  "data/nuwro_me_fhc_tracker_nue_nc_2026-10/nuwro_run.json": {
+   "bytes": 4103,
+   "modified": "2026-10-12T17:00:23",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/nuwro_me_fhc_tracker_nue_nc_2026-10/nuwro_run.json"
+  },
+  "data/nuwro_me_fhc_tracker_nuebar_cc_2026-10/nuwro_run.json": {
+   "bytes": 3566,
+   "modified": "2026-10-12T17:00:06",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/nuwro_me_fhc_tracker_nuebar_cc_2026-10/nuwro_run.json"
+  },
+  "data/nuwro_me_fhc_tracker_nuebar_nc_2026-10/nuwro_run.json": {
+   "bytes": 2462,
+   "modified": "2026-10-12T17:00:10",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/nuwro_me_fhc_tracker_nuebar_nc_2026-10/nuwro_run.json"
+  },
+  "data/nuwro_me_fhc_tracker_numubar_cc_2026-10/nuwro_run.json": {
+   "bytes": 5042,
+   "modified": "2026-10-12T17:00:32",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/nuwro_me_fhc_tracker_numubar_cc_2026-10/nuwro_run.json"
+  },
+  "data/nuwro_me_fhc_tracker_numubar_nc_2026-10/nuwro_run.json": {
+   "bytes": 4636,
+   "modified": "2026-10-12T17:00:39",
+   "target": "/exp/dune/data/users/liangliu/ndp-dev/analysis_village/cc-inclusive/data/nuwro_me_fhc_tracker_numubar_nc_2026-10/nuwro_run.json"
+  }
+ }
+}

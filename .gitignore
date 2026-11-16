@@ -1,0 +1,8 @@
+# input tables: links to (or copies of) ../cc-inclusive/data, 2.8 GB, put in data/ by scripts/link_inputs.py
+data/*.npz
+data/minerva_me1A_numu_flux_mat.json
+data/*/nuwro_run.json
+
+# Python and Jupyter leftovers
+__pycache__/
+.ipynb_checkpoints/
