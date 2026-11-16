@@ -168,9 +168,10 @@ def tidy(ax):
 
 
 def style():
-    """Colours and line styles; data = black points. The colours are those of ndp-platform/scripts/plot_style.py as the figures were
-    made (Okabe-Ito blue, green and purple; the mc_signal role colour for NuWro); matplotlib's rcParams are left at their defaults."""
-    col = {"full": "#0072B2", "gsur": "#009E73", "nsur": "#a63603", "bsur": "#CC79A7", "data": "0.05", "bkg": "0.55"}
+    """Colours and line styles; data = black points. Paper colour coding (2026-11-16): full simulation Okabe-Ito blue, GENIE + surrogate
+    Okabe-Ito orange as in the paper's response figures, NuWro teal (Tol), GiBUU brown; chosen for colour-vision separation of every
+    pair (the earlier green / purple were close under deuteranopia). matplotlib's rcParams are left at their defaults."""
+    col = {"full": "#0072B2", "gsur": "#E69F00", "nsur": "#009988", "bsur": "#a63603", "data": "0.05", "bkg": "0.55"}
     line = {"full": dict(linewidth=2.2), "gsur": dict(linewidth=1.6, linestyle=(0, (4, 2))), "nsur": dict(linewidth=1.7), "bsur": dict(linewidth=1.7, linestyle=(0, (6, 1.5, 1.5, 1.5))),
             "bkg": dict(linewidth=0.9)}
     return col, line
